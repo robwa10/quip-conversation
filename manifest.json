@@ -1,13 +1,14 @@
 {
   "name": "Quip Conversation Killer",
+	"short_name": "QCK",
   "version": "1.0",
   "description": "An extension to automatically close that annoying conversation window in Quip.",
-  "permissions": ["https://*.quip.com/*", "tabs"],
+  "permissions": ["declarativeContent", "https://*.quip.com/*", "tabs"],
   "background": {
     "scripts": ["background.js"],
     "persistant": false
   },
-  "browser_action": {
+  "page_action": {
     "default_popup": "popup.html",
     "default_icon": {
       "16": "assets/icon_16.png",
