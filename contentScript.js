@@ -1,6 +1,6 @@
 (function (document) {
 	'use strict';
-	const myElements = document.getElementsByClassName('document-chat-hide');
+	const myElements = document.getElementsByClassName('document-chat-pinned');
 	const el = myElements.length >= 1 ? myElements[0] : null;
 	if (el != null) {
 		const closeConversation = function (elem) {
